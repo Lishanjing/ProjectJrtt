@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/fragment2_item1_title"
+
+        android:text="mmm"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/fragment2_item1_img"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment2_item1_source"
+            android:layout_gravity="start"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="评论 刚刚"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+</LinearLayout>
